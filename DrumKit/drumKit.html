@@ -74,6 +74,8 @@
                 // console.log(e.keyCode) 
 
             });
+
+            // logic for removing transition
             function removeTransition(e) {
                 if (e.propertyName !== 'transform') return;
                 this.classList.remove('playing');
